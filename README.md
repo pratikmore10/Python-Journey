@@ -20,9 +20,13 @@ A program that prompts for a file name, then opens that file and reads through t
 
 1. [Count of Specific Lines](/src/assignments/count_word.py)<br>
 A program that prompts for a file name, then opens that file and reads through the file, looking for lines  of the form: **X-DSPAM-Confidence:    0.8475** and count these lines and extract the floating point values from each of the lines and compute the average of those values and produce an output.<br>
-**NOTE:** The path of the file for input should be same as the path of your project file.
+**For Practice** - You can download the sample data [from here](http://www.py4e.com/code3/mbox-short.txt) when you are testing. Enter "mbox-short.txt" as the file name.
+**NOTE:** Save the file at the path same path of your project file.<br>
+
 
 1. [Words List](/src/assignments/words_list.py)<br>
 This program builds a list of words from the input provided. For each word on each line the program checks to see if the word is already in the list and if not append it to the list and then sorts the list of words and print the resulting words in alphabetical order.<br>
-**NOTE:** The path of the file for input should be same as the path of your project file.
+**For Practice** - You can download the sample data [from here](http://www.py4e.com/code3/romeo.txt) when you are testing. Enter "romeo.txt" as the file name.
+**NOTE:** Save the file at the path same path of your project file.<br>
 
+1.
