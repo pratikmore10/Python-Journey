@@ -21,8 +21,7 @@ A program that prompts for a file name, then opens that file and reads through t
 1. [Count of Specific Lines](/src/assignments/count_word.py)<br>
 A program that prompts for a file name, then opens that file and reads through the file, looking for lines  of the form: **X-DSPAM-Confidence:    0.8475** and count these lines and extract the floating point values from each of the lines and compute the average of those values and produce an output.<br>
 **For Practice** - You can download the sample data [from here](http://www.py4e.com/code3/mbox-short.txt) when you are testing. Enter "mbox-short.txt" as the file name.
-**NOTE:** Save the file at the path same path of your project file.<br>
-
+**NOTE:** Save the file at the path same path of your project file.
 
 1. [Words List](/src/assignments/words_list.py)<br>
 This program builds a list of words from the input provided. For each word on each line the program checks to see if the word is already in the list and if not append it to the list and then sorts the list of words and print the resulting words in alphabetical order.<br>
@@ -32,9 +31,11 @@ This program builds a list of words from the input provided. For each word on ea
 1. [Getting Specific Words From Lines](/src/assignments/word_from_lines.py)<br>
 Program which returns the specific words from the entire line.<br>
 **For Practice** - You can download the sample data [from here](http://www.py4e.com/code3/mbox-short.txt) when you are testing. Enter "mbox-short.txt" as the file name.
-
 **NOTE:**
-    
     1. Save the file at the path same path of your project file.<br>
     1. '?' - insert the start of the line which you need to parse.
-    
+
+1. [Using Dictionaries](/src/assignments/dict_mail.py)<br>
+A program to read through the mbox-short.txt and figure out who has sent the greatest number of mail messages. The program looks for 'From ' lines and takes the second word of those lines as the person who sent the mail. The program creates a Python dictionary that maps the sender's mail address to a count of the number of times they appear in the file. After the dictionary is produced, the program reads through the dictionary using a maximum loop to find the most prolific committer.<br>
+You can download the sample data [from here](http://www.py4e.com/code3/mbox-short.txt) when you are testing. Enter "mbox-short.txt" as the file name.
+
