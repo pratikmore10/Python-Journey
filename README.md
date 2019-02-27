@@ -29,4 +29,12 @@ This program builds a list of words from the input provided. For each word on ea
 **For Practice** - You can download the sample data [from here](http://www.py4e.com/code3/romeo.txt) when you are testing. Enter "romeo.txt" as the file name.
 **NOTE:** Save the file at the path same path of your project file.<br>
 
-1.
+1. [Getting Specific Words From Lines](/src/assignments/word_from_lines.py)<br>
+Program which returns the specific words from the entire line.<br>
+**For Practice** - You can download the sample data [from here](http://www.py4e.com/code3/mbox-short.txt) when you are testing. Enter "mbox-short.txt" as the file name.
+
+**NOTE:**
+    
+    1. Save the file at the path same path of your project file.<br>
+    1. '?' - insert the start of the line which you need to parse.
+    
