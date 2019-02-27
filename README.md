@@ -11,6 +11,10 @@ My very first basic program to calculate the ***Pay*** of the employee on the ba
 1. [Pay Calculator Using Function](/src/assignments/pay_calculator_function.py)<br>
 Same problem solved using ***FUNCTIONS***.  
 
-1. [Iterate and maintain MAX & MIN](/src/assignments/loop_counting.py)<br>
+1. [Iterate And Maintain MAX & MIN](/src/assignments/loop_counting.py)<br>
 Program that keeps on asking user for an input till the user returns 'done' as an input.<br>
-It stores all the input in a list and then returns ***MAX & MIN*** of the given list.
+It stores all the input in a list and then returns ***MAX & MIN*** of the given list. 
+
+1. [File Reading](/src/assignments/file_reading.py)<br>
+A program that prompts for a file name, then opens that file and reads through the file, and print the contents of the file.
+
