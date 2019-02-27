@@ -18,3 +18,5 @@ It stores all the input in a list and then returns ***MAX & MIN*** of the given 
 1. [File Reading](/src/assignments/file_reading.py)<br>
 A program that prompts for a file name, then opens that file and reads through the file, and print the contents of the file.
 
+1. [Count of Specific Lines](/src/assignments/count_word.py)<br>
+A program that prompts for a file name, then opens that file and reads through the file, looking for lines  of the form: **X-DSPAM-Confidence:    0.8475** and count these lines and extract the floating point values from each of the lines and compute the average of those values and produce an output.
