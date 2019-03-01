@@ -75,6 +75,6 @@ The program will prompt for a URL, read the JSON data from that URL using urllib
 This program will use a GeoLocation lookup API modelled after the Google API to look up some universities and parse the returned data.<br>
 You can test to see if your program is working with a location of *"South Federal University"* which will have a place_id of **"ChIJdxDeChG540ARgFsT__nQU6E"**.
 
-##Using Databases With Python
+## Using Databases With Python
 **Creating Our First Database (using DB Browser):**<br>
 [click here](src/assignments/first_database_sql.md) for instructions to create a new database and insert values.
