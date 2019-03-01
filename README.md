@@ -76,5 +76,11 @@ This program will use a GeoLocation lookup API modelled after the Google API to 
 You can test to see if your program is working with a location of *"South Federal University"* which will have a place_id of **"ChIJdxDeChG540ARgFsT__nQU6E"**.
 
 ## Using Databases With Python
-**Creating Our First Database (using DB Browser):**<br>
-[click here](src/assignments/first_database_sql.md) for instructions to create a new database and insert values.
+>**Creating Our First Database (using DB Browser):**<br>
+
+[Click here](src/assignments/first_database_sql.md) for instructions to create a new database and insert values.
+
+####***Exercise***:
+- [Counting Email in a Database](src/assignments/counting_mail.py)<br>
+This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database with the following schema to maintain the counts.<br>
+**For Practice** - You can use this link: http://www.py4e.com/code3/mbox.txt (Hint: The top organizational count is 536.)
