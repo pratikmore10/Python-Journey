@@ -80,7 +80,7 @@ You can test to see if your program is working with a location of *"South Federa
 
 [Click here](src/assignments/first_database_sql.md) for instructions to create a new database and insert values.
 
-####***Exercise***:
+#### ***Exercise***:
 - [Counting Email in a Database](src/assignments/counting_mail.py)<br>
 This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database with the following schema to maintain the counts.<br>
 **For Practice** - You can use this link: http://www.py4e.com/code3/mbox.txt (Hint: The top organizational count is 536.)
