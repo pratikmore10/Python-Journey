@@ -77,10 +77,25 @@ You can test to see if your program is working with a location of *"South Federa
 
 ## Using Databases With Python
 >**Creating Our First Database (using DB Browser):**<br>
-
 [Click here](src/assignments/first_database_sql.md) for instructions to create a new database and insert values.
 
 #### ***Exercise***:
 - [Counting Email in a Database](src/assignments/counting_mail.py)<br>
 This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database with the following schema to maintain the counts.<br>
 **For Practice** - You can use this link: http://www.py4e.com/code3/mbox.txt (Hint: The top organizational count is 536.)
+
+- #### ***Databases and Visualization:***<br>
+    In this assignment we will use the ***Google GeoCoding API*** to retrieve data and then use Google Maps to visualize the data.<br>
+    
+    **Retrieving GEOData Steps:**
+
+    **Download the code from:** http://www.py4e.com/code3/geodata.zip - then unzip the file <br>
+
+    - Edit **where.data** to add an address nearby where you live.<br>
+    - Then run the **geoload.py** to lookup all of the entries in **where.data** (including the new one) and produce the **geodata.sqlite**.<br> 
+    - Then run **geodump.py** to read the database and produce **where.js**.<br> 
+    - Then open **where.html** to visualize the map.
+    
+   **NOTE:** Make sure to save the file into the same folder as you will be writing your Python program.
+
+- 
